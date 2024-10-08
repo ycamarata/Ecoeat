@@ -1,22 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Ecoeat/bootstrap-5.3.3/dist/css/bootstrap-grid.min.css">
-    <title>Eco Eat</title>
+    <link rel="stylesheet" href="../Ecoeat/bootstrap-5.3.3/dist/css/bootstrap.min.css">
+    <title>Eco Eats</title>
 </head>
-<body>
+
+<body class="bg-body-tertiary ">
     <header>
-        <nav class="navbar bg-body-tertiary border border-primary text-bg-primary">
-            <img class="w-10 h-10" src="../Ecoeat/image/logoEcoeat.jfif" alt="logoEcoeat">
-            <a class="navbar-brand" href="#">Acceuil</a>
-            <a class="navbar-brand" href="#">ok</a>
-            <a class="navbar-brand" href="#">1111</a>
-            <a class="navbar-brand" href="#">309IJJ</a>
+        <h1 class="bg-body-tertiary text-bg-success d-flex justify-content-center text-align-center text-success">
+            Eco Eats</h1>
+        <nav
+            class="navbar navbar-expand-lg navbar-dark bg-dark border border-success d-flex justify-content-around rounded-4">
+            <img src="../Ecoeat/image/logoEcoeat.jfif" alt="logo" class="img-fluid m-1" width="60">
+            <a href="../Ecoeat/index.html" class="navbar-brand text-bg-success m-2 p-2">
+                Acceuil
+            </a>
+            <a href="#" class="navbar-brand text-bg-success m-2 p-2">
+                À propos
+            </a>
+            <a href="#" class="navbar-brand text-bg-success m-2 p-2">
+                Menu
+            </a>
+            <a href="#" class="navbar-brand text-bg-success m-2 p-2">
+                Comment ça marche?
+            </a>
+            <!--             <a href="#" class="navbar-brand text-bg-success m-2 p-2">
+                Formulaire de contact
+            </a>
+            <a href="#" class="navbar-brand text-bg-success m-2 p-2">
+                Bas de page
+            </a> -->
         </nav>
     </header>
 
-<script src="../Ecoeat/bootstrap-5.3.3/dist/js/bootstrap.min.js"></script>   
+    <main class="w-100 h-100 bg-body-tertiary  rounded-4 mt-2">
+        <section class="bg-body-tertiary border-bottom border-top border-success  m-3">
+            <h2 class="d-flex justify-content-center m-2">À propos</h2>
+                <p class="text-center m-5">
+                Eco Eats est une entreprise de service qui vous livrera vos repas bio.
+                Ne vous souciez plus de manger des repas équilibrés, nous nous en occupons. 
+                Ne vous souciez plus de perdre votre temps, soyez livré chez vous.
+                </p>
+
+        </section>
+        <section class="bg-body-tertiary border-bottom border-top border-success m-3">
+            <h2 class="d-flex justify-content-center m-2">Menu</h2>
+                <p class="m-2" style="max-width: 200px;">
+                1er menu
+                </p>
+                <p class="m-2">
+                2eme menu
+                </p>
+        </section>
+
+        <section class="bg-body-success border-bottom border-top border-success m-3 d-flex justify-content-center">
+            
+            <h2 class="text-center m-2">Comment ça marche?</h2>
+            <button class="btn btn-success bg-body-success m-1"  type="button"
+                data-bs-toggle="collapse" data-bs-target="#deroulant" aria-expanded="false"
+                aria-controls="collapseExample">
+                ->
+            </button>
+       
+            <div class="collapse" id="deroulant">
+                <div class="card card-body m-2">
+                <p class="text-center  m-2"> Inscription -> Connexion -> Commandez -> Votre livraison arrive -> Hum... à table !!!</p>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    
+      
+
+
+ <!-- <article> FORMULAIRE DE CONTACT A MODIFIER
+    <div class="">
+        <form class="px-4 py-3">
+          <div class="mb-3">
+            <label for="exampleDropdownFormEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleDropdownFormPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+          </div>
+          <div class="mb-3">
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="dropdownCheck">
+              <label class="form-check-label" for="dropdownCheck">
+                Remember me
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </form>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">New around here? Sign up</a>
+        <a class="dropdown-item" href="#">Forgot password?</a>
+      </div>
+    </article> -->
+
+
+    <script src="../Ecoeat/bootstrap-5.3.3/dist/js/bootstrap.min.js"></script>
 </body>
+
 </html>
