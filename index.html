@@ -14,34 +14,38 @@
             Eco Eats</h1>
         <nav
             class="navbar navbar-expand-lg navbar-dark bg-dark border border-success d-flex justify-content-around rounded-4">
-            <img src="../Ecoeat/image/logoEcoeat.jfif" alt="logoEcoEats" class="img-fluid m-1" width="60">
+            <img src="../Ecoeat/image/logoEcoeat.jfif" alt="logo EcoEats" class="img-fluid m-1" width="60">
             <a href="../Ecoeat/index.html" class="navbar-brand text-bg-success m-2 p-2">
                 Acceuil
             </a>
-            <a href="#" class="navbar-brand text-bg-success m-2 p-2">
+            <a href="#présentation" class="navbar-brand text-bg-success m-2 p-2">
                 À propos
             </a>
-            <a href="#" class="navbar-brand text-bg-success m-2 p-2">
+            <a href="#menu" class="navbar-brand text-bg-success m-2 p-2">
                 Menu
             </a>
-            <a href="#" class="navbar-brand text-bg-success m-2 p-2">
+            <a href="#comment" class="navbar-brand text-bg-success m-2 p-2">
                 Comment ça marche?
             </a>
-            <!--             <a href="#" class="navbar-brand text-bg-success m-2 p-2">
+            <a href="#formulaire" class="navbar-brand text-bg-success m-2 p-2">
                 Formulaire de contact
             </a>
             <a href="#" class="navbar-brand text-bg-success m-2 p-2">
                 Bas de page
-            </a> -->
+            </a>
         </nav>
     </header>
 
     <main class="w-100 h-100 bg-body-tertiary rounded-4 mt-2">
+        <!--Offre spéciale-->
         <div class="d-flex bg-primary-subtle justify-content-center text-center m-1" style="width: 100%; height: 10%;">
             <P>Offre spéciale: 2 plats commandés 1 livraison gratuite</P>
         </div>
-        <section class="bg-body-tertiary border-bottom border-top border-success  m-3">
-            <h2 class="d-flex justify-content-center m-2">À propos</h2>
+        <!--Fin offre spéciales-->
+
+        <!--à propos-->
+        <section class="bg-body-tertiary border-bottom border-top border-success  m-5">
+            <h2 id="présentation" class="d-flex justify-content-center m-2">À propos</h2>
             <p class="text-center m-5">
                 Eco Eats est une entreprise de service qui vous livrera vos repas bio.
                 <br>
@@ -50,12 +54,13 @@
                 Ne vous souciez plus de perdre votre temps, soyez livré chez vous.
             </p>
         </section>
+        <!--FIN de à propos-->
 
-        <section class="bg-body-tertiary border-bottom border-top border-success mb-3">
-
-            <h2 class="d-flex justify-content-center text-center">Menu</h2>
-            <article class="row m-5 w-100">
-                <article class="col-lg-4 d-none d-lg-block mt-2">
+        <!--Menu à finir le redimensionnement-->
+        <section class="bg-body-tertiary border-bottom border-top border-success m-5">
+            <h2 id="menu" class="d-flex justify-content-center text-center">Menu</h2>
+            <article class="row  w-100 ">
+                <article class="col-lg-4 d-flex d-lg-flex justify-content-center mt-1">
                     <div class="card w-50 m-1 text-center">
                         <img src="../Ecoeat/image/aubergine.jfif" alt="plat aubergine" />
                         <div class="card-body">
@@ -68,7 +73,7 @@
                     </div>
                 </article>
 
-                <article class="col-lg-4 d-none d-lg-block mt-2">
+                <article class="col-lg-4 d-flex d-lg-flex mt-1 justify-content-center">
                     <div class="card w-50 m-1 text-center">
                         <img src="../Ecoeat/image/ballotinepoulet.jfif" alt="ballotine de poulet" />
                         <div class="card-body">
@@ -81,7 +86,7 @@
                     </div>
                 </article>
 
-                <article class="col-lg-4 mb-2 d-none d-lg-block mt-2">
+                <article class="col-lg-4 mb-2 d-flex d-lg-flex mt-1 justify-content-center">
                     <div class="card w-50 m-1 text-center">
                         <img src="../Ecoeat/image/burgervege.jfif" alt="burger végétarien" />
                         <div class="card-body">
@@ -94,7 +99,7 @@
                     </div>
                 </article>
 
-                <article class="col-lg-4 mb-2 d-none d-lg-block mt-2">
+                <article class="col-lg-4 d-flex d-lg-flex mt-1 justify-content-center">
                     <div class="card w-50 m-1 text-center">
                         <img src="../Ecoeat/image/Flanccourgette.jfif" alt="Flan de courgette" />
                         <div class="card-body">
@@ -107,7 +112,7 @@
                     </div>
                 </article>
 
-                <article class="col-lg-4 d-none d-lg-block mt-2">
+                <article class="col-lg-4 d-flex d-lg-flex mt-1 justify-content-center">
                     <div class="card w-50 m-1 text-center">
                         <img src="../Ecoeat/image/Quérico.jfif" alt="Qué rico" />
                         <div class="card-body">
@@ -120,7 +125,7 @@
                     </div>
                 </article>
 
-                <article class="col-lg-4 d-none d-lg-block mt-2">
+                <article class="col-lg-4 d-flex d-lg-flex mt-1 justify-content-center">
                     <div class="card w-50 m-1 text-center">
                         <img src="../Ecoeat/image/cagette.jfif" alt="cagette de légumes bio à préparer" />
                         <div class="card-body">
@@ -134,10 +139,12 @@
                 </article>
             </article>
         </section>
+        <!--FIN DU MENU-->
 
-        <section class="bg-body-success border-bottom border-top border-success m-3 d-flex justify-content-center">
+        <!--Comment ça marche ?-->
+        <section class="bg-body-success border-bottom border-top border-success m-5 d-flex justify-content-center">
 
-            <h2 class="text-center m-2">Comment ça marche?</h2>
+            <h2 id="comment" class="text-center m-2">Comment ça marche?</h2>
             <button class="btn btn-success bg-body-success m-1" type="button" data-bs-toggle="collapse"
                 data-bs-target="#deroulant" aria-expanded="false" aria-controls="deroulant">
                 ->
@@ -150,19 +157,15 @@
                 </div>
             </div>
         </section>
-
-
+        <!-- FIN Comment ça marche ?-->
     </main>
 
-
-
-
-
     <!--FORMULAIRE DE CONTACT -->
+    <section class="bg-body-success border-bottom border-top border-success m-5 d-flex justify-content-center">
+    <fieldset class="border-bottom border-top border-success m-5 d-block justify-content-center text-center bg-primary-subtle">
+        <h2 id="formulaire" class="d-flex justify-content-center text-center mb-3">Formulaire</h2>
 
-    <fieldset
-        class="border-bottom border-top border-success m-5 d-block justify-content-center text-center bg-primary-subtle">
-        <form class=" m-4">
+        <form class=" mt-4">
             <div class="mb-3">
                 <label for="" class="form-label">Email:</label>
                 <input type="email" class="form-control" id="email" placeholder="email@exemple.com">
@@ -180,6 +183,8 @@
             <button type="submit" class="btn btn-primary m-5">Envoyez</button>
         </form>
     </fieldset>
+</section>
+    <!--FIN du formulaire-->
 
     <footer class="bg-dark border border-success d-flex justify-content-around rounded-4 mb-0 text-white">
         <p>contact</p>
